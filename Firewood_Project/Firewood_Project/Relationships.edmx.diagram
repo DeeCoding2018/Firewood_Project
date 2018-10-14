@@ -5,13 +5,13 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="0360d70f01ad4798ba59a0223ea8c9b2" Name="Diagram1">
-        <EntityTypeShape EntityType="FirewoodModel.Account_Information" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
-        <EntityTypeShape EntityType="FirewoodModel.Category" Width="1.5" PointX="10.125" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FirewoodModel.Account_Information" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FirewoodModel.Category" Width="1.5" PointX="7.625" PointY="4.375" IsExpanded="true" />
         <EntityTypeShape EntityType="FirewoodModel.Customer" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="FirewoodModel.Employee" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="FirewoodModel.Order_Details" Width="1.5" PointX="5.25" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FirewoodModel.Employee" Width="1.5" PointX="3" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FirewoodModel.Order_Details" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
         <EntityTypeShape EntityType="FirewoodModel.Order" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
-        <EntityTypeShape EntityType="FirewoodModel.Product" Width="1.5" PointX="7.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FirewoodModel.Product" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
         <AssociationConnector Association="FirewoodModel.FK_Products_To_Category" ManuallyRouted="false" />
         <AssociationConnector Association="FirewoodModel.FK_Orders_To_Customer" ManuallyRouted="false" />
         <AssociationConnector Association="FirewoodModel.FK_Orders_To_Employee" ManuallyRouted="false" />

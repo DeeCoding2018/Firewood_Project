@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+    <script src="JavaScriptSignup.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <!--Header ----------------------------------------------------------------------------->
+    <header>FIREWOOD PROJECT</header>
+    <!--Navbar ------------------------------------------------------------------------------>
+    <div class="container-fluid">
+        <nav class="navbar ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="navbar-header">
+                        <ul class="nav navbar-nav">
+                            <li><a href="Home.html" target="_blank">Home</a></li>
+                            <li><a href="About.html" target="_blank">About</a></li>
+                            <li><a href="Order.html" target="_blank">Order Firewood</a></li>
+                            <li><a href="Contact.html" target="_blank">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!--Main image -------------------------------------------------------------------------->
+    <div class="container-fluid">
+        <img class="img1" src="images/FWP.png" />
+    </div>
+
+    <form>
+        <div align="right" id="login">
+            <input class="usern" type="text" id="user" name="user" placeholder="Username" />
+            <input class="pass" type="text" id="psw" name="password" placeholder="Password" />
+            <input class="loginBtn" type="submit" name="submit" value="Login" onclick="return loginValidation();" /><br /><br />
+            Not a Member? <input class="registerBtn" type="button" name="" value="Register" onclick="window.location.href='Register.html'" />
+        </div>
+    </form>
+
+    <!--Register form ------------------------------------------------------------------------------------->
+    <div>
+        <form action="Register.html">
+            <div class="container">
+                <h3><strong>Create User Account</strong></h3>
+                <p>Please fill in this form to create an account.</p>
+                <hr>
+                <div class="form">
+                <label for="username"><b>User Name</b></label><br />
+                <input type="text" placeholder="Enter User Name" name="user" id="user" /><br />
+
+                <label for="psw"><b>Password</b></label><br />
+                <input class="psw" type="password" placeholder="Enter Password" name="pswd" id="psw" /><br />
+
+                <label for="psw-repeat"><b>Repeat Password</b></label><br />
+                <input class="psw" type="password" placeholder="Repeat Password" name="psw-repeat" id="repeat" /> <br />
+
+                <label for="fname"><b>First Name</b></label><br />
+                <input type="text" placeholder="Enter first name" name="fname" id="fn" /><br />
+
+                <label for="lname"><b>Last Name</b></label><br />
+                <input type="text" placeholder="Enter last name" name="lname" id="ln" /><br />
+
+                <label for="address"><b>Address</b></label><br />
+                <input type="text" placeholder="Enter address" name="address" id="adrss" /><br />
+
+                <label for="zip code"><b>Zip Code</b></label><br />
+                <input type="text" placeholder="Enter zip code" name="zip code" id="zip" /><br />
+
+                <label for="phone"><b>Phone Number</b></label><br />
+                <input type="text" placeholder="Enter phone number" name="phone" id="pn" /><br />
+
+                <label for="email"><b>Email</b></label><br />
+                <input type="text" placeholder="Enter Email" name="email" id="mail" /><br />
+                <br/>
+                <br/>
+                </div>
+                <input class="SubmitButton" type="submit" name="create" value="Submit" onclick="signupValidation();" />
+            </div>
+        </form>
+    </div>
+    <div class="content">
+    </div>
+    <br /><br />
+
+<!--Footer --------------------------------------------------------------------------------------------->
+    <div class="footer">
+        <p>
+            FireWood Project<br />
+            Located on a Street<br />
+            In a City<br />
+            Washington<br />
+            Contact Number: 1-800-xxx-xxx
+        </p>
+    </div>
+
+    <!--Go to top ------------------------------------------------------------------------------->
+    <div class="footer-bottom">
+        <p></p>
+        <p class="text-center"><a href="#">Back to top</a></p>
+    </div>
+    </div>
+</body>
+</html>
