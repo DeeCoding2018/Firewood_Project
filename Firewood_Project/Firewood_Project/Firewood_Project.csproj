@@ -214,11 +214,11 @@
     <Content Include="Documents\Current\About.html" />
     <Content Include="Documents\Current\Contact.html" />
     <Content Include="Documents\Current\Home.html" />
-    <Content Include="Documents\Current\images\FWP.png" />
+    <Content Include="Content\images\FWP.png" />
     <Content Include="Documents\Current\Login.html" />
     <Content Include="Documents\Current\Order.html" />
     <Content Include="Documents\Current\Register.html" />
-    <Content Include="Documents\Current\StyleSheet1.css" />
+    <Content Include="Content\FirewoodStyleSheet.css" />
     <Content Include="Documents\Rough\About.html" />
     <Content Include="Documents\Rough\Home.html" />
     <Content Include="Documents\Rough\images\FWP.png" />
