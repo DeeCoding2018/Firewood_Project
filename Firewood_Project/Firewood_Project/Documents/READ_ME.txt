@@ -1,1 +1,0 @@
-﻿This folder is used as a collective storage for documents regarding the Firewood_Project solution.
