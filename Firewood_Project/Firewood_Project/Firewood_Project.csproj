@@ -219,6 +219,7 @@
     <Content Include="Documents\Current\Order.html" />
     <Content Include="Documents\Current\Register.html" />
     <Content Include="Content\FirewoodStyleSheet.css" />
+    <Content Include="Documents\Current\TextFile1.txt" />
     <Content Include="Documents\Rough\About.html" />
     <Content Include="Documents\Rough\Home.html" />
     <Content Include="Documents\Rough\images\FWP.png" />
