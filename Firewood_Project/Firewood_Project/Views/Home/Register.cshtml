@@ -24,10 +24,26 @@
                 <div class="row">
                     <div class="navbar-header">
                         <ul class="nav navbar-nav">
-                            <li><a href="~/Views/Home/Index.cshtml" target="_blank">Home</a></li>
-                            <li><a href="~/Views/Home/About.cshtml" target="_blank">About</a></li>
-                            <li><a href="~/Views/Home/Order.cshtml" target="_blank">Order Firewood</a></li>
-                            <li><a href="~/Views/Home/Contact.cshtml" target="_blank">Contact</a></li>
+                            <li>
+                                <a href="@Url.Action("Index", "Home")" class="elements">
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("About", "Home")" class="elements">
+                                    <span>About</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Order", "Home")" class="elements">
+                                    <span>Order</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Contact", "Home")" class="elements">
+                                    <span>Contact</span>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -57,31 +73,31 @@
                 <p>Please fill in this form to create an account.</p>
                 <hr>
                 <div class="form">
-                    <label for="username"><b>User Name</b></label><br />
+                    <label for="username"><b style="color: azure">User Name</b></label><br />
                     <input type="text" placeholder="Enter User Name" name="user" id="user" /><br />
 
-                    <label for="psw"><b>Password</b></label><br />
+                    <label for="psw"><b style="color: azure">Password</b></label><br />
                     <input class="psw" type="password" placeholder="Enter Password" name="pswd" id="psw" /><br />
 
-                    <label for="psw-repeat"><b>Repeat Password</b></label><br />
+                    <label for="psw-repeat"><b style="color: azure">Repeat Password</b></label><br />
                     <input class="psw" type="password" placeholder="Repeat Password" name="psw-repeat" id="repeat" /> <br />
 
-                    <label for="fname"><b>First Name</b></label><br />
+                    <label for="fname"><b style="color: azure">First Name</b></label><br />
                     <input type="text" placeholder="Enter first name" name="fname" id="fn" /><br />
 
-                    <label for="lname"><b>Last Name</b></label><br />
+                    <label for="lname"><b style="color: azure">Last Name</b></label><br />
                     <input type="text" placeholder="Enter last name" name="lname" id="ln" /><br />
 
-                    <label for="address"><b>Address</b></label><br />
+                    <label for="address"><b style="color: azure">Address</b></label><br />
                     <input type="text" placeholder="Enter address" name="address" id="adrss" /><br />
 
-                    <label for="zip code"><b>Zip Code</b></label><br />
+                    <label for="zip code"><b style="color: azure">Zip Code</b></label><br />
                     <input type="text" placeholder="Enter zip code" name="zip code" id="zip" /><br />
 
-                    <label for="phone"><b>Phone Number</b></label><br />
+                    <label for="phone"><b style="color: azure">Phone Number</b></label><br />
                     <input type="text" placeholder="Enter phone number" name="phone" id="pn" /><br />
 
-                    <label for="email"><b>Email</b></label><br />
+                    <label for="email"><b style="color: azure">Email</b></label><br />
                     <input type="text" placeholder="Enter Email" name="email" id="mail" /><br />
                     <br />
                     <br />
