@@ -22,9 +22,12 @@ namespace Firewood_Project
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
+            // Bundles allow for files to be loaded
+            // using @Styles.Render("~/Content/css") in the _Layout.cshtml
+            // bundles specific files under a "pseudonym" called "~/Content/css"
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/FirewoodStyleSheet.css"));
         }
     }
 }

@@ -26,5 +26,26 @@ namespace Firewood_Project.Controllers
 
             return View();
         }
+
+        public ActionResult Order()
+        {
+            ViewBag.Messsage = "Your order page";
+
+            return View();
+        }
+
+        public ActionResult Login()
+        {
+            ViewBag.Messsage = "Your login page";
+
+            return View();
+        }
+
+        public ActionResult Registration()
+        {
+            ViewBag.Messsage = "Your registration page";
+
+            return View();
+        }
     }
 }

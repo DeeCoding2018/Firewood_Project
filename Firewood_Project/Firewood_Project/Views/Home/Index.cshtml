@@ -1,31 +1,106 @@
-﻿@{
-    ViewBag.Title = "Home Page";
+﻿
+@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="~/Content/FirewoodStyleSheet.css" />
+    <script src="JavaScript_Login.js" type="text/javascript"></script>
+</head>
 
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
-</div>
+<body>
+    <!--Header ----------------------------------------------------------------------------->
+    <header>FIREWOOD PROJECT</header>
+    <!--Navbar ------------------------------------------------------------------------------>
+    <div class="container-fluid">
+        <nav class="navbar ">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="navbar-header">
+                        <ul class="nav navbar-nav">
+                            @{ var pathLink = "~/Views/Home/Index.cshtml";}
+                            <li>
+                                <a href="@Url.Action("Index", "Home")" class="elements">
+                                    <span>Home</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("About", "Home")" class="elements">
+                                    <span>About</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Order", "Home")" class="elements">
+                                    <span>Order</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="@Url.Action("Contact", "Home")" class="elements">
+                                    <span>Contact</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
 
-<div class="row">
-    <div class="col-md-4">
-        <h2>Getting started</h2>
+    <!--Main image -------------------------------------------------------------------------->
+    <div class="container-fluid">
+        <img class="img1" src="~/Content/images/FWP.png" />
+    </div>
+
+    <form>
+        <div align="right" id="login">
+            <input class="usern" type="text" id="user" name="user" placeholder="Username" />
+            <input class="pass" type="text" id="psw" name="password" placeholder="Password" />
+            <input class="loginBtn" type="submit" name="submit" value="Login" onclick="return loginValidation();" /><br /><br />
+            Not a Member? <input class="registerBtn" type="button" name="" value="Register" onclick="window.location.href='~/Views/Home/Register.cshtml'" />
+        </div>
+    </form>
+
+    <!--Home text ----------------------------------------------------------------------------->
+    <div class="text">
+        <h3><strong>Delivery To These Areas</strong></h3>
+        <br />
+        <p><h4><strong>Bellevue</strong></h4></p>
+        <p><h4><strong>Seattle</strong></h4></p>
+        <p><h4><strong>Renton</strong></h4></p>
+        <p><h4><strong>Redmond</strong></h4></p>
+    </div>
+
+    <!--Helpgul link -------------------------------------------------------------------------------->
+    <div class="text">
+        <form>
+            <div>
+                <p><h3><strong>Firewood Tips: </strong></h3></p><br />
+            </div>
+
+            <input class="MyButton" type="button" value="Learn More" onclick="window.location.href='https://www.almanac.com/content/best-firewood-heat-values-wood-burning-tips'" />
+        </form>
+    </div>
+    <br /><br /><br />
+
+    <!--Footer ----------------------------------------------------------------------------------->
+    <div class="footer">
         <p>
-            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-            enables a clean separation of concerns and gives you full control over markup
-            for enjoyable, agile development.
+            FireWood Project<br />
+            Located on a Street<br />
+            In a City<br />
+            Washington<br />
+            Contact Number: 1-800-xxx-xxx
         </p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+        <!--Go to top ------------------------------------------------------------------------------->
+        <div class="footer-bottom">
+            <p></p>
+            <p class="text-center"><a href="#">Back to top</a></p>
+        </div>
     </div>
-    <div class="col-md-4">
-        <h2>Get more libraries</h2>
-        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
-    </div>
-    <div class="col-md-4">
-        <h2>Web Hosting</h2>
-        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
-    </div>
-</div>
+</body>
+</html>
