@@ -214,18 +214,26 @@
     <Content Include="Documents\Current\About.html" />
     <Content Include="Documents\Current\Contact.html" />
     <Content Include="Documents\Current\Home.html" />
-    <Content Include="Content\images\FWP.png" />
+    <Content Include="Documents\Current\images\FWP.png" />
     <Content Include="Documents\Current\Login.html" />
     <Content Include="Documents\Current\Order.html" />
     <Content Include="Documents\Current\Register.html" />
+    <Content Include="Documents\Current\StyleSheet1.css" />
+    <Content Include="Documents\Historic\Old\About.html" />
+    <Content Include="Documents\Historic\Old\Contact.html" />
+    <Content Include="Documents\Historic\Old\Home.html" />
+    <Content Include="Documents\Historic\Old\Login.html" />
+    <Content Include="Documents\Historic\Old\Order.html" />
+    <Content Include="Documents\Historic\Old\Register.html" />
+    <Content Include="Documents\Historic\Rough\About.html" />
+    <Content Include="Documents\Historic\Rough\Home.html" />
+    <Content Include="Documents\Historic\Rough\images\FWP.png" />
+    <Content Include="Documents\Historic\Rough\Login.html" />
+    <Content Include="Documents\Historic\Rough\READ_ME.txt" />
+    <Content Include="Documents\Historic\Rough\Register.html" />
+    <Content Include="Documents\Historic\Rough\StyleSheet1.css" />
+    <Content Include="Content\images\FWP.png" />
     <Content Include="Content\FirewoodStyleSheet.css" />
-    <Content Include="Documents\Rough\About.html" />
-    <Content Include="Documents\Rough\Home.html" />
-    <Content Include="Documents\Rough\images\FWP.png" />
-    <Content Include="Documents\Rough\Login.html" />
-    <Content Include="Documents\Rough\READ_ME.txt" />
-    <Content Include="Documents\Rough\Register.html" />
-    <Content Include="Documents\Rough\StyleSheet1.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -303,6 +311,8 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="SQL\dbo.Table.sql" />
+    <Content Include="SQL\SQL_Build.sql" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -317,9 +327,16 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Home\Order.cshtml" />
+    <Content Include="Views\Home\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="Views\About\" />
+    <Folder Include="Views\Login\" />
+    <Folder Include="Views\Order\" />
+    <Folder Include="Views\Register\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

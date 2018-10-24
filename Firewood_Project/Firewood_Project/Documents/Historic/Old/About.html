@@ -1,14 +1,4 @@
-﻿@{
-    ViewBag.Title = "About";
-    ViewBag.Message = "About Page";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
-@*<h2>@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
-
-    <p>Use this area to provide additional information.</p>*@
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -28,10 +18,10 @@
                 <div class="row">
                     <div class="navbar-header">
                         <ul class="nav navbar-nav">
-                            <li><a href="~/Home/Index.cshtml" target="_blank">Home</a></li>
-                            <li><a href="~/Home/About.cshtml" target="_blank">About</a></li>
-                            <li><a href="~/Home/Order.cshtml" target="_blank">Order Firewood</a></li>
-                            <li><a href="~/Home/Contact.cshtml" target="_blank">Contact</a></li>
+                            <li><a href="Home.html" target="_blank">Home</a></li>
+                            <li><a href="About.html" target="_blank">About</a></li>
+                            <li><a href="Order.html" target="_blank">Order Firewood</a></li>
+                            <li><a href="Contact.html" target="_blank">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -41,7 +31,7 @@
 
     <!--Main image -------------------------------------------------------------------------->
     <div class="container-fluid">
-        <img class="img1" src="~/Content/images/FWP.png" />
+        <img class="img1" src="images/FWP.png" />
     </div>
 
     <form>
@@ -49,21 +39,20 @@
             <input class="usern" type="text" id="user" name="user" placeholder="Username" />
             <input class="pass" type="text" id="psw" name="password" placeholder="Password" />
             <input class="loginBtn" type="submit" name="submit" value="Login" onclick="return loginValidation();" /><br /><br />
-            Not a Member? <input class="registerBtn" type="button" name="" value="Register" onclick="window.location.href='~/Views/Home/Register.cshtml'" />
+            Not a Member? <input class="registerBtn" type="button" name="" value="Register" onclick="window.location.href='Register.html'" />
         </div>
     </form>
 
     <!--Text About ---------------------------------------------------------------------------------------------->
     <div class="content">
         <h3><strong>About Us</strong></h3><br />
-        <p>
-            We have been Servicing the greater Seattle and Eastside Area for over 9 years, providing quality firewood that keeps your home cozy and outdoor activities
+        <p> We have been Servicing the greater Seattle and Eastside Area for over 9 years, providing quality firewood that keeps your home cozy and outdoor activities
             enjoyable. With a variety of wood to keep you set for the season or year round, we pride ourselves in quality products, and customer services.
         </p><br />
     </div>
     <br /><br />
 
-    <!--Footer --------------------------------------------------------------------------------------------------------------->
+<!--Footer --------------------------------------------------------------------------------------------------------------->
     <div class="footer">
         <p>
             FireWood Project<br />
@@ -73,11 +62,11 @@
             Contact Number: 1-800-xxx-xxx
         </p>
 
-        <!--Go to top ------------------------------------------------------------------------------->
-        <div class="footer-bottom">
-            <p></p>
-            <p class="text-center"><a href="#">Back to top</a></p>
-        </div>
+    <!--Go to top ------------------------------------------------------------------------------->
+    <div class="footer-bottom">
+        <p></p>
+        <p class="text-center"><a href="#">Back to top</a></p>
+    </div>
     </div>
 </body>
 </html>
