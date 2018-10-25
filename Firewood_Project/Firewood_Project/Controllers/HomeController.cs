@@ -41,7 +41,7 @@ namespace Firewood_Project.Controllers
             return View();
         }
 
-        public ActionResult Registration()
+        public ActionResult Register()
         {
             ViewBag.Messsage = "Your registration page";
 

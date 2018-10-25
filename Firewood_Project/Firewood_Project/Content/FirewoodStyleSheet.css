@@ -204,6 +204,11 @@ input.MyButton {
 }
 
 /*register -------------------------------------------------------------------------*/
+.container
+{
+    color: white;
+}
+
 .container h3 {
     text-align: center;
     color: white;
@@ -240,6 +245,7 @@ input.SubmitButton {
 
 .form {
     margin-left: 480px;
+    color: azure;
 }
 
 input.psw {
