@@ -163,6 +163,7 @@
       <DependentUpon>Relationships.tt</DependentUpon>
     </Compile>
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RegistrationController.cs" />
     <Compile Include="Customer.cs">
       <DependentUpon>Relationships.tt</DependentUpon>
     </Compile>
@@ -176,6 +177,7 @@
     <Compile Include="Historic\App_Code\Products.cs" />
     <Compile Include="Historic\App_Code\SignUp.cs" />
     <Compile Include="Historic\App_Code\Transaction.cs" />
+    <Compile Include="Models\Registration.cs" />
     <Compile Include="Order.cs">
       <DependentUpon>Relationships.tt</DependentUpon>
     </Compile>
@@ -332,11 +334,10 @@
     <Content Include="Views\Home\Register.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Views\About\" />
     <Folder Include="Views\Login\" />
     <Folder Include="Views\Order\" />
     <Folder Include="Views\Register\" />
+    <Folder Include="Views\Registration\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

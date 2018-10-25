@@ -24,10 +24,11 @@ CREATE TABLE [dbo].Customer (
     [Customer_Id] INT NOT NULL IDENTITY,
     [Account_Number] INT NOT NULL, 
     [First_Name] NCHAR(10) NOT NULL, 
-    [Last_Name] NCHAR(10) NOT NULL, 
-    [Zip_Code] NCHAR(10) NOT NULL, 
+    [Last_Name] NCHAR(10) NOT NULL,
+	[Address] NCHAR(20) NOT NULL,
+    [Zip_Code] NCHAR(5) NOT NULL, 
     [Phone_Number] NCHAR(10) NOT NULL, 
-    [Email_Address] NCHAR(10) NOT NULL,
+    [Email_Address] NCHAR(20) NOT NULL,
 	-- SETS Primary Key
     CONSTRAINT [PK_Customer] PRIMARY KEY ([Customer_Id]), 
 	-- SETS Foreign Key
