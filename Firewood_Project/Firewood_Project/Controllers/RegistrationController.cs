@@ -9,22 +9,26 @@ namespace Firewood_Project.Controllers
 {
     public class RegistrationController : Controller
     {
+        FirewoodEntities firewoodEntities;
         // GET: Registration
         public ActionResult Details()
         {
             return View();
         }
 
-        [HttpPost]
-        public ActionResult Details(Registration registration)
+        public ActionResult Create()
         {
-            if (ModelState.IsValid)
-            {
-                //var dbRegistration = FirewoodEntities.
-
-                return Redirect("/");
-            }
+            var registration = new Registration();
             return View(registration);
         }
+        
+        // IDEA:
+        // remake project entirely from scratch with MVC and use HTML from
+        // FRONT-END team for formatting
+        //[HttpPost]
+        //public ActionResult Create(Registration registration)
+        //{
+        //    firewoodEntities.Customers.Add(registration);
+        //}
     }
 }

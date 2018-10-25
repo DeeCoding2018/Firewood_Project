@@ -332,12 +332,12 @@
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Home\Order.cshtml" />
     <Content Include="Views\Home\Register.cshtml" />
+    <Content Include="Views\Registration\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Login\" />
     <Folder Include="Views\Order\" />
     <Folder Include="Views\Register\" />
-    <Folder Include="Views\Registration\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

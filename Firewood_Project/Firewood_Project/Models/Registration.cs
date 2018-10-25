@@ -9,9 +9,6 @@ namespace Firewood_Project.Models
 {
     public class Registration
     {
-        [Required]
-        public int Account_Number { get; set; }
-
         [Required][StringLength(20)]
         public string User_Name { get; set; }
 
